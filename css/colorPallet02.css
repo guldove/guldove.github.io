@@ -1,0 +1,50 @@
+/* CSS HEX */
+--sepia: #734C1Fff;
+--kobe: #892409ff;
+--bistre: #362719ff;
+--tropical-rain-forest: #26705Aff;
+--dark-moss-green: #3B631Cff;
+--brunswick-green: #1E5542ff;
+
+/* CSS HSL */
+--sepia: hsla(32, 58%, 29%, 1);
+--kobe: hsla(13, 88%, 29%, 1);
+--bistre: hsla(29, 37%, 15%, 1);
+--tropical-rain-forest: hsla(162, 49%, 29%, 1);
+--dark-moss-green: hsla(94, 56%, 25%, 1);
+--brunswick-green: hsla(159, 48%, 23%, 1);
+
+/* SCSS HEX */
+$sepia: #734C1Fff;
+$kobe: #892409ff;
+$bistre: #362719ff;
+$tropical-rain-forest: #26705Aff;
+$dark-moss-green: #3B631Cff;
+$brunswick-green: #1E5542ff;
+
+/* SCSS HSL */
+$sepia: hsla(32, 58%, 29%, 1);
+$kobe: hsla(13, 88%, 29%, 1);
+$bistre: hsla(29, 37%, 15%, 1);
+$tropical-rain-forest: hsla(162, 49%, 29%, 1);
+$dark-moss-green: hsla(94, 56%, 25%, 1);
+$brunswick-green: hsla(159, 48%, 23%, 1);
+
+/* SCSS RGB */
+$sepia: rgba(115, 76, 31, 1);
+$kobe: rgba(137, 36, 9, 1);
+$bistre: rgba(54, 39, 25, 1);
+$tropical-rain-forest: rgba(38, 112, 90, 1);
+$dark-moss-green: rgba(59, 99, 28, 1);
+$brunswick-green: rgba(30, 85, 66, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #734C1Fff, #892409ff, #362719ff, #26705Aff, #3B631Cff, #1E5542ff);
+$gradient-right: linear-gradient(90deg, #734C1Fff, #892409ff, #362719ff, #26705Aff, #3B631Cff, #1E5542ff);
+$gradient-bottom: linear-gradient(180deg, #734C1Fff, #892409ff, #362719ff, #26705Aff, #3B631Cff, #1E5542ff);
+$gradient-left: linear-gradient(270deg, #734C1Fff, #892409ff, #362719ff, #26705Aff, #3B631Cff, #1E5542ff);
+$gradient-top-right: linear-gradient(45deg, #734C1Fff, #892409ff, #362719ff, #26705Aff, #3B631Cff, #1E5542ff);
+$gradient-bottom-right: linear-gradient(135deg, #734C1Fff, #892409ff, #362719ff, #26705Aff, #3B631Cff, #1E5542ff);
+$gradient-top-left: linear-gradient(225deg, #734C1Fff, #892409ff, #362719ff, #26705Aff, #3B631Cff, #1E5542ff);
+$gradient-bottom-left: linear-gradient(315deg, #734C1Fff, #892409ff, #362719ff, #26705Aff, #3B631Cff, #1E5542ff);
+$gradient-radial: radial-gradient(#734C1Fff, #892409ff, #362719ff, #26705Aff, #3B631Cff, #1E5542ff);
