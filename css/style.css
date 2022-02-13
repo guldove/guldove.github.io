@@ -1,6 +1,16 @@
+:root{
+  --jet: #2F2B28ff;
+  --deep-jungle-green: #084B49ff;
+  --liver-dogs: #B2632Fff;
+  --alice-blue: #E5EFF6ff;
+  --black-bean: #4E1309ff;
+  --dark-cornflower-blue: #0D407Dff;
+}
+
 
 body {
-	background: #ffffff;
+	/* background: #ffffff; */
+	background: var(--alice-blue);
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
 	font-weight: 300;
@@ -87,7 +97,8 @@ p {
 .section-btn:hover {
   background: #E3AE57;
   border-color: transparent;
-  color: #ffffff;
+  color: var(--alice-blue);
+  /* color: #ffffff; */
 }
 
 .btn-success:focus {
@@ -266,7 +277,8 @@ a:hover, a:active, a:focus {
 
 .custom-navbar {
     margin-bottom: 0;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: var(--alice-blue);
 }
 
 .custom-navbar .navbar-brand {
